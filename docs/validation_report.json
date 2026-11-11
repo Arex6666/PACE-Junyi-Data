@@ -1,0 +1,20 @@
+{
+  "release_date": "2026-11-11",
+  "raw_events_scanned": 16217311,
+  "elementary_math_events": 11629660,
+  "eligible_irt_students": 40509,
+  "eligible_irt_items": 784,
+  "cleaned_events_100_students": 21069,
+  "analysis_seed_events": 7500,
+  "analysis_seed_students": 100,
+  "analysis_seed_knowledge_points": 18,
+  "analysis_seed_correct": 5146,
+  "analysis_seed_correct_rate": 0.6861333333333334,
+  "content_rows": 784,
+  "mastery_values": 1800,
+  "checks": {
+    "all_seed_events_traceable_with_multiplicity": true,
+    "all_student_and_kp_links_valid": true,
+    "all_mastery_values_in_range": true
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "metadata": {
+    "source": "Junyi Academy (Kaggle: learning-activity-public-dataset-by-junyi-academy)",
+    "domain": "primary_school_math",
+    "language": "zh-TW",
+    "n_kp": 18,
+    "n_edges": 19,
+    "n_misconceptions": 15,
+    "schema_version": "2.1-junyi-corrected",
+    "irt_params": "Rasch (1PL), alternating MLE, 5 iter",
+    "note": "KP 按 level3_id 聚合；theta/b 从 72K 学生 × 1.6M 交互拟合；misconceptions 沿用合成版本（Junyi 无此信号） | Manually corrected 2026-04-19: kp_name 繁→简, fixed 2 domain mismatches (k07 measurement, k13 integer), fixed 5 grade over-estimations (k05 G4, k06 G5, k07 G4, k11 G4, k14 G5)."
+  },
+  "nodes": [
+    {
+      "id": "k01",
+      "name": "数量关系与应用题",
+      "domain": "wordprob",
+      "grade": 3,
+      "b": -0.171,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m14"
+      ],
+      "_junyi_level3_id": "bo3jsx1beVLEZ+2sckxdZNYnlLpVS7hb5lWU2baQ66k=",
+      "_junyi_n_items": 16,
+      "_junyi_l2_id": "ICgke8JJv5eapCPwyj1aco8PEtoBkUbTZYIqxmYtqBk=",
+      "name_original": "怎樣解題：數量關係"
+    },
+    {
+      "id": "k02",
+      "name": "两步骤计算应用题",
+      "domain": "wordprob",
+      "grade": 3,
+      "b": -0.853,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m14"
+      ],
+      "_junyi_level3_id": "4cISKCt3nXWe4r6Q8bzjOiL2EYYsZyT6Z0mNNJckqEc=",
+      "_junyi_n_items": 84,
+      "_junyi_l2_id": "ICgke8JJv5eapCPwyj1aco8PEtoBkUbTZYIqxmYtqBk=",
+      "name_original": "兩步驟計算規則綜合習題"
+    },
+    {
+      "id": "k03",
+      "name": "条形图与折线图",
+      "domain": "statistics",
+      "grade": 3,
+      "b": -1.128,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [],
+      "_junyi_level3_id": "DySOBHaLZsTiveM9ydb+JDF/4r3E/4RpX2HijyrUOMQ=",
+      "_junyi_n_items": 9,
+      "_junyi_l2_id": "jXSXg7CfDboPEXlnqJTGuQOb0VIgOXCpaU/Sl+/m3n0=",
+      "name_original": "讀長條圖與折線圖：基礎"
+    },
+    {
+      "id": "k04",
+      "name": "生活中的表格",
+      "domain": "statistics",
+      "grade": 3,
+      "b": -1.473,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [],
+      "_junyi_level3_id": "0lUnR0ktOyp/k6AP59LT6LLleMy0sApv3Wx0P1IBU6c=",
+      "_junyi_n_items": 7,
+      "_junyi_l2_id": "jXSXg7CfDboPEXlnqJTGuQOb0VIgOXCpaU/Sl+/m3n0=",
+      "name_original": "生活中的表格綜合習題"
+    },
+    {
+      "id": "k05",
+      "name": "角度综合",
+      "domain": "geometry",
+      "grade": 4,
+      "b": -0.848,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m11",
+        "m12",
+        "m13"
+      ],
+      "_junyi_level3_id": "nLqsiSA2CPPgbpIk8GE3OSF94E4F7ogLig3ETQnOw4g=",
+      "_junyi_n_items": 78,
+      "_junyi_l2_id": "1EzKLzTq9Ax8/wlR9cJNrtthvk9lBi/SFdx/4L1PIaE=",
+      "name_original": "角度綜合習題"
+    },
+    {
+      "id": "k06",
+      "name": "复合形体的体积",
+      "domain": "geometry",
+      "grade": 5,
+      "b": -0.548,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m11",
+        "m12",
+        "m13"
+      ],
+      "_junyi_level3_id": "xJYDWrjKoWhvx5w88UZja7WZgWHm2o9jmUQR8V911qc=",
+      "_junyi_n_items": 37,
+      "_junyi_l2_id": "1EzKLzTq9Ax8/wlR9cJNrtthvk9lBi/SFdx/4L1PIaE=",
+      "name_original": "複合形體的體積"
+    },
+    {
+      "id": "k07",
+      "name": "容量、容积和体积",
+      "domain": "measurement",
+      "grade": 4,
+      "b": -0.398,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m09"
+      ],
+      "_junyi_level3_id": "Dnl0P09LJllOG2eS2nB9pQax0ZixH7aCXPTKjB6O/dg=",
+      "_junyi_n_items": 37,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "容量、容積和體積綜合習題"
+    },
+    {
+      "id": "k08",
+      "name": "因数与公因数",
+      "domain": "factor",
+      "grade": 4,
+      "b": -0.612,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [],
+      "_junyi_level3_id": "ItasYR+er/FlZlRvL66/NB3wY0AvmlrZKoqe4gmPyD0=",
+      "_junyi_n_items": 34,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "因數與公因數綜合習題"
+    },
+    {
+      "id": "k09",
+      "name": "体积（立方厘米）",
+      "domain": "measurement",
+      "grade": 5,
+      "b": -1.976,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m09"
+      ],
+      "_junyi_level3_id": "SbjJOr6qtjsiqb5cTT/nQEFCsgNyP8xGaOQS4zHdQ0s=",
+      "_junyi_n_items": 6,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "體積：立方公分綜合習題"
+    },
+    {
+      "id": "k10",
+      "name": "时间的加减",
+      "domain": "time",
+      "grade": 3,
+      "b": -0.814,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [],
+      "_junyi_level3_id": "X5gAB0OLUqA8Rp3qGLuJyf6kyY16/nSreFkh68gpFzc=",
+      "_junyi_n_items": 31,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "時間的加減計算綜合習題"
+    },
+    {
+      "id": "k11",
+      "name": "一位小数",
+      "domain": "decimal",
+      "grade": 4,
+      "b": -0.886,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m09",
+        "m10"
+      ],
+      "_junyi_level3_id": "YM8uggtD5HZBGCCzNJLU90fC9C+B8/bZP3x483rb7PI=",
+      "_junyi_n_items": 97,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "一位小數綜合習題"
+    },
+    {
+      "id": "k12",
+      "name": "毫米与长度单位",
+      "domain": "measurement",
+      "grade": 3,
+      "b": -1.039,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m09"
+      ],
+      "_junyi_level3_id": "a2w4FdOiBsy7t1fsstano3rtWKyay8qPhPd4U6Er7YQ=",
+      "_junyi_n_items": 27,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "毫米綜合習題"
+    },
+    {
+      "id": "k13",
+      "name": "数的十进位结构",
+      "domain": "integer",
+      "grade": 4,
+      "b": -1.277,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m01",
+        "m02"
+      ],
+      "_junyi_level3_id": "scsWmkZsfmdmD2IzB24sQ1Au1BOXYgQEx9zO3+4glq8=",
+      "_junyi_n_items": 146,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "數的十進位結構"
+    },
+    {
+      "id": "k14",
+      "name": "分数的乘法",
+      "domain": "fraction",
+      "grade": 5,
+      "b": -0.853,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m05",
+        "m06",
+        "m07",
+        "m08"
+      ],
+      "_junyi_level3_id": "zM75Dhur9om41RTSUIivWvZ07gckl2Hi0cd3/Kx4sN4=",
+      "_junyi_n_items": 132,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "分數的乘法綜合習題"
+    },
+    {
+      "id": "k15",
+      "name": "角、正方形与长方形",
+      "domain": "geometry",
+      "grade": 3,
+      "b": -1.42,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m11",
+        "m12",
+        "m13"
+      ],
+      "_junyi_level3_id": "3TpEcN+JUz/mQq8c1Q/Fxn66B9E2Z4mLxjxvFqLRKHo=",
+      "_junyi_n_items": 7,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "角、正方形與長方形綜合習"
+    },
+    {
+      "id": "k16",
+      "name": "公斤与克",
+      "domain": "measurement",
+      "grade": 3,
+      "b": -1.128,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m09"
+      ],
+      "_junyi_level3_id": "3fgcSGTzD9uuOjoB5R7onIyqBhvluj0aVuSIpMfqLdQ=",
+      "_junyi_n_items": 15,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "公斤和公克綜合習題"
+    },
+    {
+      "id": "k17",
+      "name": "公升与毫升",
+      "domain": "measurement",
+      "grade": 3,
+      "b": -1.598,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m09"
+      ],
+      "_junyi_level3_id": "31v13N8GN4hIUpg1IsMv4DVkK8Hlb0XhHnHnBR1Ivcs=",
+      "_junyi_n_items": 7,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "公升與毫升綜合習題"
+    },
+    {
+      "id": "k18",
+      "name": "面积（平方厘米）",
+      "domain": "geometry",
+      "grade": 3,
+      "b": -1.068,
+      "difficulty_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "applicable_misconceptions": [
+        "m11",
+        "m12",
+        "m13"
+      ],
+      "_junyi_level3_id": "8OFhw5s0EmQIKBlKbJL+Dvp+u3ss4rN3foLwLM4xXls=",
+      "_junyi_n_items": 14,
+      "_junyi_l2_id": "7f73q332BKPBXaixasa4EkUb+pF6VAsLxNIg4506JJs=",
+      "name_original": "平方公分綜合習題"
+    }
+  ],
+  "edges": [
+    {
+      "from": "k02",
+      "to": "k01",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k04",
+      "to": "k03",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k05",
+      "to": "k06",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k09",
+      "to": "k17",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k17",
+      "to": "k15",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k15",
+      "to": "k13",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k13",
+      "to": "k16",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k16",
+      "to": "k18",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k18",
+      "to": "k12",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k12",
+      "to": "k11",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k11",
+      "to": "k14",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k14",
+      "to": "k10",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k10",
+      "to": "k08",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k08",
+      "to": "k07",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k13",
+      "to": "k14",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k14",
+      "to": "k11",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k13",
+      "to": "k15",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k13",
+      "to": "k02",
+      "type": "prerequisite"
+    },
+    {
+      "from": "k12",
+      "to": "k15",
+      "type": "prerequisite"
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "m01",
+      "name": "加法忘进位",
+      "description": "做加法时不记进位，个位结果错误",
+      "applies_to": [
+        "k03",
+        "k20"
+      ],
+      "wrong_pattern": "drop_carry"
+    },
+    {
+      "id": "m02",
+      "name": "减法忘借位",
+      "description": "做减法时不会借位，遇到不够减用绝对值",
+      "applies_to": [
+        "k04",
+        "k20"
+      ],
+      "wrong_pattern": "abs_borrow"
+    },
+    {
+      "id": "m03",
+      "name": "乘法表混淆",
+      "description": "九九表中相邻题的混淆，如 7×8=54 / 56 / 64",
+      "applies_to": [
+        "k05",
+        "k21"
+      ],
+      "wrong_pattern": "table_neighbor"
+    },
+    {
+      "id": "m04",
+      "name": "除法商错位",
+      "description": "竖式除法时商的位置错（少一位或多一位）",
+      "applies_to": [
+        "k06"
+      ],
+      "wrong_pattern": "quotient_misalign"
+    },
+    {
+      "id": "m05",
+      "name": "分数加法分母相加",
+      "description": "异分母分数加法把分母直接相加：1/2+1/3=2/5",
+      "applies_to": [
+        "k09"
+      ],
+      "wrong_pattern": "frac_add_denom"
+    },
+    {
+      "id": "m06",
+      "name": "分数加法分子分母都加",
+      "description": "把分子和分母分别相加：1/2+1/3=2/5",
+      "applies_to": [
+        "k08",
+        "k09"
+      ],
+      "wrong_pattern": "frac_add_both"
+    },
+    {
+      "id": "m07",
+      "name": "分数减法忘通分",
+      "description": "异分母减法忘了通分，分子直接相减",
+      "applies_to": [
+        "k10"
+      ],
+      "wrong_pattern": "frac_sub_no_lcm"
+    },
+    {
+      "id": "m08",
+      "name": "分数乘法只乘分子",
+      "description": "做分数乘法只乘分子，分母保留：2/3 × 4/5 = 8/3",
+      "applies_to": [
+        "k11"
+      ],
+      "wrong_pattern": "frac_mul_num_only"
+    },
+    {
+      "id": "m09",
+      "name": "小数点对齐错误",
+      "description": "小数加减时按右端对齐而非小数点对齐",
+      "applies_to": [
+        "k13",
+        "k14"
+      ],
+      "wrong_pattern": "dec_align_right"
+    },
+    {
+      "id": "m10",
+      "name": "小数乘法忘小数点",
+      "description": "小数乘法做完忘了点小数点，结果放大 10/100 倍",
+      "applies_to": [
+        "k15"
+      ],
+      "wrong_pattern": "dec_mul_no_point"
+    },
+    {
+      "id": "m11",
+      "name": "周长面积混淆",
+      "description": "把周长公式当面积用，或反过来",
+      "applies_to": [
+        "k16",
+        "k17"
+      ],
+      "wrong_pattern": "perim_area_swap"
+    },
+    {
+      "id": "m12",
+      "name": "三角形面积忘除以 2",
+      "description": "把三角形面积直接算成 底 × 高",
+      "applies_to": [
+        "k18"
+      ],
+      "wrong_pattern": "tri_area_no_half"
+    },
+    {
+      "id": "m13",
+      "name": "长方体表面积当体积",
+      "description": "求体积时算成 6 个面之和",
+      "applies_to": [
+        "k19"
+      ],
+      "wrong_pattern": "vol_use_surf"
+    },
+    {
+      "id": "m14",
+      "name": "应用题反向运算",
+      "description": "应用题该加用减、该乘用除，对'共'/'剩'/'倍'语义混淆",
+      "applies_to": [
+        "k20",
+        "k21",
+        "k22"
+      ],
+      "wrong_pattern": "wp_reverse"
+    },
+    {
+      "id": "m15",
+      "name": "比例颠倒",
+      "description": "比例题中前后项颠倒，如 3:5 当 5:3 用",
+      "applies_to": [
+        "k23"
+      ],
+      "wrong_pattern": "ratio_inverse"
+    }
+  ],
+  "difficulty_offsets": {
+    "1": -1.0,
+    "2": -0.5,
+    "3": 0.0,
+    "4": 0.5,
+    "5": 1.0
+  }
+}

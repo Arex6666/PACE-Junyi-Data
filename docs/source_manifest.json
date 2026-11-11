@@ -1,0 +1,52 @@
+[
+  {
+    "filename": "Info_Content.csv",
+    "bytes": 389397,
+    "sha256": "f4ecd9d60f17bbe1e2fe84af7aade405297844e9173abd899278708f3455743e"
+  },
+  {
+    "filename": "Info_UserData.csv",
+    "bytes": 6363597,
+    "sha256": "1ef473e314e1900e925f32c5448958423659450502e14f06b9e3419150f64746"
+  },
+  {
+    "filename": "Log_Problem.csv",
+    "bytes": 3020754300,
+    "sha256": "8f3c36bd9085ca5f4ef0c4be98b0663d198bd8f5e56d826c3c92b9e00117e9b6"
+  },
+  {
+    "filename": "junyi_real_interactions.jsonl",
+    "bytes": 2500481,
+    "sha256": "3c10fd71bda581057313fe68190ad0f2883b35381bec1de4a04e4c10d17bdb19"
+  },
+  {
+    "filename": "students_100_junyi.json",
+    "bytes": 67939,
+    "sha256": "dc1415aab377de928e49991d7d76ec4da776273c0f02b3d753fd80c415bb4ddd"
+  },
+  {
+    "filename": "knowledge_graph_junyi.json",
+    "bytes": 15962,
+    "sha256": "53654a27fa330fa16c10dd6af0e20b8d77493c9da5943c723a79e86ba5439fbc"
+  },
+  {
+    "filename": "junyi_irt_params.json",
+    "bytes": 47360,
+    "sha256": "39ddd2d29838106319043511494ad220d1d4bbdbb236cbaed06d6927c609bb50"
+  },
+  {
+    "filename": "load_junyi.py",
+    "bytes": 23039,
+    "sha256": "cda9aa57ef967bd39b673a9edbba7dd26461c91f7dc95e9643b819d61a97abb6"
+  },
+  {
+    "filename": "_kp_definitions.py",
+    "bytes": 8380,
+    "sha256": "b7cf05702b63170aa8ae470c92cf34784e74f4b08f97db38f65d35f48f09ff07"
+  },
+  {
+    "filename": "fix_kg_manual_corrections.py",
+    "bytes": 5955,
+    "sha256": "fc7a535deb1a7753fb18cc0bdffcf83a3ed814f7918f1bc8a029fb5f4f19d132"
+  }
+]
